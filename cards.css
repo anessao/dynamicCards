@@ -1,0 +1,47 @@
+/***************************************
+MAIN BODY STYLING
+****************************************/
+
+body {
+	background-image: url(../images/background.png), linear-gradient(to right, #69c8c3 , #189199);
+	background-repeat: no-repeat, no-repeat;
+	background-size: cover, cover;
+	height: 100vh;
+}
+
+/***************************************
+USER INPUT AREA STYLING
+****************************************/
+
+#userInput {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+}
+
+.textarea {
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.textarea:focus {
+	outline: 0;
+	border: 4px solid #c86979;
+}
+#addCard {
+	height: 30px;
+	border: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #fbf473;
+}
+#addCard:focus {
+	outline: 0;
+	background-color: #b5db7e;
+	border: 2px solid #39b54a;
+}
